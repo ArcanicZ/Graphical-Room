@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Room with Furniture</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="800" height="600">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>Left Arrow Key: Rotate Left, Right Arrow Key: Right Left</p>
+    <p>Up Arrow Key: Move Camera Foward, Down Arrow Key: Move Camera Backwards</p>
+    <p>Q Key: Move Chairs Outwards , W Key: Move Chairs Inwards</p>
+    <p>A Key: Dangle Light One Way, S Key: Dangle Light The Other Way</p>
+    <p>Z Key: Open Wardrobe Doors, X Key: Close Wardrobe Doors</p>
+    <p>E Key: Open TV Stand Drawer, R Key: Close TV Stand Drawer</p>
+
+    
+
+    <img id="leather-texture" src="./Textures/sofatexture.jpg" width="0" height="0"></img>
+    <img id="wallpaper-texture" src="./Textures/wallpaper-texture.jpg" width="0" height="0"></img>
+    <img id="floor-texture" src="./Textures/floor-texture.jpg" width="0" height="0"></img>
+    <img id="chair-texture" src="./Textures/chair-texture.jpg" width="0" height="0"></img>
+    <img id="table-texture" src="./Textures/table-texture.jpg" width="0" height="0"></img>
+    <img id="rug-texture" src="./Textures/rug-texture.jpg" width="0" height="0"></img>
+    <img id="wardrobe-texture" src="./Textures/wardrobe-texture.jpg" width="0" height="0"></img>
+    <img id="door-texture" src="./Textures/door-texture.jpg" width="0" height="0"></img>
+    <img id="stand-texture" src="./Textures/stand-texture.jpg" width="0" height="0"></img>
+    <img id="ceiling-texture" src="./Textures/ceiling-texture.jpg" width="0" height="0"></img>
+    <img id="bed-texture" src="./Textures/bed-texture.jpg" width="0" height="0"></img>
+    <img id="duvet-texture" src="./Textures/duvet-texture.jpg" width="0" height="0"></img>
+    <img id="pillow-texture" src="./Textures/pillow-texture.jpg" width="0" height="0"></img>
+    <img id="pill-texture" src="./Textures/pill-texture.jpg" width="0" height="0"></img>
+    <script src="./lib/webgl-utils.js"></script>
+    <script src="./lib/webgl-debug.js"></script>
+    <script src="./lib/cuon-utils.js"></script>
+    <script src="./lib/cuon-matrix.js"></script>
+    <script src="./room.js"></script>
+  </body>
+</html>
